@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>interact</class>
+ <widget class="QWidget" name="interact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>515</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>521</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="1Cat.qrc">:/background.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>281</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>回复【喂食】、【疫苗】、【绝育】了解相关知识</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="avatar">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="1Cat.qrc">:/5.17/chunbai.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>30</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="link">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>194</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>350</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/back.png</normaloff>:/back.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>91</width>
+     <height>31</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="1Cat.qrc"/>
+ </resources>
+ <connections/>
+</ui>

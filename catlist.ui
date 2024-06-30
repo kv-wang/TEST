@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Catlist</class>
+ <widget class="QWidget" name="Catlist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+       border: none;
+       padding: 0;
+       min-width: 0;
+       min-height: 0;
+   }
+   QPushButton:hover {
+       /* 可选，为鼠标悬停时添加样式 */
+       image: url(:/5.22/others/catbutton_ready.jpg); 
+   }
+QPushButton:pressed {
+    /* 按下状态的图标 */
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.22/others/all.jpg</normaloff>:/5.22/others/all.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>51</width>
+     <height>51</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>在此搜索你想找的猫猫吧！</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchbtn">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>60</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{backgroundcolor:white}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/search.png</normaloff>:/search.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>19</width>
+     <height>19</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bai">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/chunbai.jpg</normaloff>:/5.17/chunbai.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hei">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/chunhei.jpg</normaloff>:/5.17/chunhei.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="daimao">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/daimao.jpg</normaloff>:/5.17/daimao.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ju">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/ju.jpg</normaloff>:/5.17/ju.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lihua">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>150</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/lihua.jpg</normaloff>:/5.17/lihua.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sanhua">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/sanhua.jpg</normaloff>:/5.17/sanhua.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nainiu">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>80</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.17/nainiu.jpg</normaloff>:/5.17/nainiu.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>300</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="1Cat.qrc">:/5.17/mainmenu3.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>40</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>所有</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gong">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.22/others/male.jpg</normaloff>:/5.22/others/male.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>51</width>
+     <height>51</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mu">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>280</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.22/others/female.jpg</normaloff>:/5.22/others/female.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>51</width>
+     <height>51</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="unknown">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>280</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/5.22/others/unknowngender.jpg</normaloff>:/5.22/others/unknowngender.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>51</width>
+     <height>51</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>290</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="1Cat.qrc">
+     <normaloff>:/back.png</normaloff>:/back.png</iconset>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>searchbtn</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>bai</tabstop>
+  <tabstop>hei</tabstop>
+  <tabstop>daimao</tabstop>
+  <tabstop>ju</tabstop>
+  <tabstop>lihua</tabstop>
+  <tabstop>sanhua</tabstop>
+  <tabstop>nainiu</tabstop>
+ </tabstops>
+ <resources>
+  <include location="1Cat.qrc"/>
+ </resources>
+ <connections/>
+</ui>

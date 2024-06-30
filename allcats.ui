@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Allcats</class>
+ <widget class="QWidget" name="Allcats">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>251</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>251</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>260</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>260</width>
+      <height>800</height>
+     </size>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/Wangzx/Pictures/Screenshots/1.png</normaloff>C:/Users/Wangzx/Pictures/Screenshots/1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/Wangzx/Pictures/Screenshots/2.png</normaloff>C:/Users/Wangzx/Pictures/Screenshots/2.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/Wangzx/Pictures/Screenshots/3.png</normaloff>C:/Users/Wangzx/Pictures/Screenshots/3.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>38</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/4.png</normaloff>:/4.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/5.png</normaloff>:/5.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/6.png</normaloff>:/6.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/7.png</normaloff>:/7.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/8.png</normaloff>:/8.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/9.png</normaloff>:/9.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/10.png</normaloff>:/10.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>240</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/11.png</normaloff>:/11.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>240</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="1Cat.qrc">
+       <normaloff>:/12.png</normaloff>:/12.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>240</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>返     回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="1Cat.qrc"/>
+ </resources>
+ <connections/>
+</ui>
